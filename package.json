@@ -1,0 +1,27 @@
+{
+  "name": "hubot-relay",
+  "version": "0.1.0",
+  "description": "Relay message to another chatbox via http",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuyuvn/hubot-relay"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "relay"
+  ],
+  "author": "Clicia Scarlet <yuyuvn@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuyuvn/hubot-relay/issues"
+  },
+  "homepage": "https://github.com/yuyuvn/hubot-relay",
+  "dependencies": {
+    "coffee-script": "^1.6.0"
+  }
+}
