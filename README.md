@@ -35,4 +35,4 @@ RELAY_ENABLE_COMMAND - Support command
 RELAY_ENABLE_RECEIVE - Enable receive relay message
 ```
 
-- Uri is http://<your_receiver_address>/hubot/relay/<room_id>
+- Uri is `http://<your_receiver_address>/hubot/relay/<room_id>`
