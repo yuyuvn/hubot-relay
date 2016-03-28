@@ -67,6 +67,7 @@ module.exports = (robot) ->
   robot.respond /relay delete (.+)/, (msg) ->
     return if !process.env.RELAY_ENABLE_COMMAND
     url = msg.match[1]
+    return if url == "all"
     brain_key = msg.message.user.name + "_relay_url"
     list = robot.brain.get brain_key
     if list
