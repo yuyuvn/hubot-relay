@@ -1,6 +1,6 @@
 {
   "name": "hubot-relay",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Relay message to another chatbox via http",
   "main": "index.coffee",
   "scripts": {
